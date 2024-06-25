@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+@layer base {
+  
+  body {
+    @apply bg-white dark:bg-[rgb(3,7,18)] dark:text-white; 
+  }
+ 
+}
