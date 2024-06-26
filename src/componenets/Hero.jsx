@@ -10,7 +10,7 @@ import { PiLinkedinLogo } from "react-icons/pi";
 const Hero = () => {
 
     return (
-        <div className="flex  flex-col-reverse sm:flex-row  pt-28 w-full h-auto  px-2 sm:px-10 md:px-20">
+        <div className="flex  flex-col-reverse sm:flex-row pt-10  md:pt-28 w-full h-auto  px-2 sm:px-10 md:px-20">
 
             {/* left section */} 
             <div className="flex-grow-0 w-fit  mt-10 md:mt-0  sm:flex-grow-[2]  flex flex-col px-2 lg:pr-20 gap-3 justify-center" >
@@ -32,12 +32,12 @@ const Hero = () => {
             </div>
 
             {/* right section  */}
-            <div className="flex-grow-0 mx-auto  sm:ml-9  sm:flex-grow flex-shrink-0 mt-20 sm:mt-2 flex justify-center items-center ">
+            <div className="flex-grow-0 mx-auto pt-2 md:pt-20  sm:ml-9  sm:flex-grow flex-shrink-0 mt-20 sm:mt-2 flex justify-center items-center ">
 
-                <div className="bg-gray-400 dark:bg-gray-800 px-2 sm:px-0 pb-2 sm:pb-0">
-                    <div className="w-[280px]  mb-0 sm:mb-7  ">
-                        <img src={profile} className="ml-0 sm:-ml-7  -mt-6 sm:-mt-7 border-4     md:border-[6px] border-white dark:border-gray-950" alt="Profile Image" srcSet="" />
-                    </div>
+                <div className="bg-gray-200 dark:bg-gray-700 px-2 sm:px-0 pb-2 sm:pb-0">
+                    <div className="w-[200px] sm:w-[280px]  mb-0 sm:mb-6  ">
+                        <img src={profile} className="ml-0 sm:-ml-6  -mt-6 sm:-mt-10 border-4     md:border-[6px] border-white dark:border-gray-950" alt="Profile Image" srcSet="" />
+                    </div> 
                 </div>
 
             </div>
