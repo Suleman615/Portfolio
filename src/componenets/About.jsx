@@ -3,7 +3,7 @@ import image from '../assets/about.jpeg'
 const About = () => {
     return (
         <>
-        <div className='w-full my-20 py-10 dark:bg-gray-900 bg-opacity-50 bg-gray-50'>
+        <div id='about' className='w-full my-20 py-10 dark:bg-gray-900  bg-gray-100'>
             <p className='mb-20 mt-0 md:mt-16 mx-auto w-fit bg-gray-200 dark:bg-gray-700 dark:text-gray-200 px-4 font-semibold py-1 rounded-full'>About me</p>
 
 
