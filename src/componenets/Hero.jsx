@@ -1,4 +1,4 @@
-import profile from "../assets/profile.jpeg"
+import profile from "../assets/profile.webp"
 import { SlLocationPin } from "react-icons/sl";
 import { GoDotFill } from "react-icons/go";
 import { FiGithub } from "react-icons/fi";

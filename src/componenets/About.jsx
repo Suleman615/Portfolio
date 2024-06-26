@@ -1,9 +1,9 @@
-import image from '../assets/about.jpeg'
+import image from '../assets/about.webp'
 
 const About = () => {
     return (
         <>
-        <div id='about' className='w-full my-20 py-10 dark:bg-gray-900  bg-gray-100'>
+        <div id='about' className='w-full mt-10 pt-20 md:pt-16 py-10 dark:bg-gray-900  bg-gray-100 '>
             <p className='mb-20 mt-0 md:mt-16 mx-auto w-fit bg-gray-200 dark:bg-gray-700 dark:text-gray-200 px-4 font-semibold py-1 rounded-full'>About me</p>
 
 

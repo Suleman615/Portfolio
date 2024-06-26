@@ -3,6 +3,7 @@ import Navbar from './componenets/Navbar'
 import Hero from './componenets/Hero'
 import About from './componenets/About'
 import Skills from './componenets/Skills'
+import Experience from './componenets/Experience'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Hero/>
       <About/>
       <Skills/>
+      <Experience/>
     </>
   )
 }
