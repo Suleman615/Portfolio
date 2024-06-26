@@ -10,7 +10,7 @@ import { PiLinkedinLogo } from "react-icons/pi";
 const Hero = () => {
 
     return (
-        <div id="home" className="flex  flex-col-reverse sm:flex-row pt-10  md:pt-28 w-full h-auto  px-2 sm:px-10 md:px-20">
+        <div id="home" className="flex  flex-col-reverse sm:flex-row pt-10  md:pt-28 w-full h-auto min-h-[100vh]  px-2 sm:px-10 md:px-20">
 
             {/* left section */} 
             <div className="flex-grow-0 w-fit  mt-10 md:mt-0  sm:flex-grow-[2]  flex flex-col px-2 lg:pr-20 gap-3 justify-center" >

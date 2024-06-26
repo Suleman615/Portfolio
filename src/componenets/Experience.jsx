@@ -52,7 +52,7 @@ const Experience = () => {
                     </div>
                     <div className='flex flex-col gap-4'>
                         <div className='flex flex-col-reverse sm:flex-row text-gray-950 dark:text-gray-200 justify-between gap-3 sm:gap-40'>
-                            <p className='font-bold'>{item.title}</p> <p className='font-thin'>{item.start_date}- {item.end_date}</p>
+                            <p className='font-bold'>{item.title}</p> <p className='font-thin'>{item.start_date} - {item.end_date}</p>
                         </div>
                         <ul className='list-disc list-inside'>
                             {item.learnings.map((item, key) => (<li key={key}>{item}</li>))}
