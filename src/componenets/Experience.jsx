@@ -17,9 +17,9 @@ const Experience = () => {
             end_date: 'todate',
             title: 'React And Next Js Fellow',
             learnings: [
-                'this is first',
-                'this is second',
-                'this is third'
+                'Revised HTML & CSS Concept',
+                'Worked on LinkedIn Personal Branding',
+                'Learned Tailwind  from Basic to Advance'
             ]
         },
         {
@@ -29,9 +29,9 @@ const Experience = () => {
             end_date: 'Aug 2023',
             title: 'Front End Developer',
             learnings: [
-                'this is first',
-                'this is second',
-                'this is third'
+                'Learned HTML From Basic to Advance',
+                'learned CSS From Basic to advance',
+                'Learned Bootstrap from Basic to Advance'
             ]
         },
        
