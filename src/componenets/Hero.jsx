@@ -25,8 +25,8 @@ const Hero = () => {
                 <p className="font-semibold">Available for new Projects</p>
                 </div>
                 <div className="flex gap-4 mt-10">
-                <a target="_blank" href="https://github.com/Suleman615"><FiGithub size={28} /></a>
-                <a target="_blank" href="https://www.linkedin.com/in/ghulam-suleman/"><PiLinkedinLogo size={28} /></a>
+                <a target="_blank" href="https://github.com/Suleman615" title="Github"><FiGithub size={28} /></a>
+                <a target="_blank" href="https://www.linkedin.com/in/ghulam-suleman/" title="LinkedIn"><PiLinkedinLogo size={28} /></a>
 
                 </div>
             </div>
