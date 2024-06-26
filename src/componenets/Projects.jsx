@@ -106,7 +106,7 @@ const Projects = () => {
         <>
             <div id="projects" className=' min-h-[100vh] flex flex-col justify-center'>
                 <p className='mb-4 mt-20 mx-auto w-fit bg-gray-200 dark:bg-gray-700 dark:text-gray-200 px-4 font-semibold py-1 rounded-full  '>Projects</p>
-                <p className='w-fit mx-auto px-2 text-center'>Some of the noteworthy projects I have built:</p>
+                <p className='w-fit text-xl mx-auto px-2 text-center'>Some of the noteworthy projects I have built:</p>
 
 
                 {/* Prijects */}

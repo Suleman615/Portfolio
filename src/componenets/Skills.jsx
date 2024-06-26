@@ -64,7 +64,7 @@ const Skills = () => {
         <>
             <div id='skills' className=' min-h-[100vh] flex flex-col justify-center' >
                 <p className='mb-4 mt-20 mx-auto w-fit bg-gray-200 dark:bg-gray-700 dark:text-gray-200 px-4 font-semibold py-1 rounded-full '>Skills</p>
-                <p className='w-fit mx-auto px-2 text-center'>The skills, tools and technologies I am really good at:</p>
+                <p className='w-fit text-xl mx-auto px-2 text-center'>The skills, tools and technologies I am really good at:</p>
 
                 <div className='flex flex-wrap justify-center items-start gap-20 px-2 md:px-40 py-20'>
                     {skill.map((item, key) => (<div key={key} className='flex flex-col items-center justify-between gap-4'>

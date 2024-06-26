@@ -42,7 +42,7 @@ const Experience = () => {
         <div id="experience" className='py-20  dark:bg-gray-900  bg-gray-100'>
 
             <p className='mb-4 mt-0 md:mt-16 mx-auto w-fit bg-gray-200 dark:bg-gray-700 dark:text-gray-200 px-4 font-semibold py-1 rounded-full'>Experience</p>
-            <p className='w-fit mx-auto px-2 text-center'>Here is a quick summary of my most recent experiences:</p>
+            <p className='w-fit text-xl mx-auto px-2 text-center'>Here is a quick summary of my most recent experiences:</p>
             <div className='my-10 flex flex-col gap-10'>
                 {experience.map((item, key) => (<div key={key} className='flex flex-col sm:flex-row gap-3 sm:gap-10 shadow-lg text-gray-600   dark:text-gray-200 shadow-gray-300 dark:shadow-gray-950 bg-white dark:bg-gray-800  w-[90%] sm:w-fit mx-auto p-6 rounded-lg'>
                     <div>
