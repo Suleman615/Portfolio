@@ -23,8 +23,8 @@ const Contact = () => {
                 </div>
                 <p className='w-fit text-xl max-w-[600px] mx-auto px-2 text-center'>You may also find me on these platforms!</p>
                 <div className="flex gap-4 my-6 w-fit mx-auto">
-                    <a target="_blank" href="https://github.com/Suleman615"><FiGithub size={28} /></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/ghulam-suleman/"><PiLinkedinLogo size={28} /></a>
+                    <a target="_blank" href="https://github.com/Suleman615" title="Github"><FiGithub size={28} /></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/ghulam-suleman/" title="LinkedIn"><PiLinkedinLogo size={28} /></a>
 
                 </div>
             </div>
