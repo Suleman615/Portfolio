@@ -5,7 +5,7 @@ import { BsMoonStars } from "react-icons/bs";
 import { MdOutlineLightMode } from "react-icons/md";
 import { LuAlignRight } from "react-icons/lu";
 import { RxCross2 } from "react-icons/rx";
-
+import CV from '../assets/Ghulam-Suleman-Resume.pdf'
 
 
 
@@ -46,9 +46,9 @@ const Navbar = () => {
                         <a href="#contact">Contact</a>
                     </div>
                     <div className="cursor-pointer" onClick={switchTheme}>{(theme === 'light') ? <BsMoonStars size={24} /> : <MdOutlineLightMode size={24} />}</div>
-                    <button className="px-4 rounded-xl py-1 bg-gray-950 text-white font-semibold     dark:text-gray-950 dark:bg-white">
+                    <a href={CV} download className="px-4 rounded-xl py-1 bg-gray-950 text-white font-semibold     dark:text-gray-950 dark:bg-white">
                         Download CV
-                    </button>
+                    </a>
                 </div>
 
                 {(shownav) ? <RxCross2 className="block md:hidden " onClick={() => { setNav(!shownav) }} size={34} /> : <LuAlignRight className="block md:hidden " onClick={() => { setNav(!shownav) }} size={34} />}
@@ -64,9 +64,9 @@ const Navbar = () => {
                     <a onClick={() => { setNav(!shownav) }} href="contact">Contact</a>
                 </div>
                 <div className="cursor-pointer w-fit flex justify-between sm:justify-start gap-10" onClick={() => { switchTheme(), setNav(!shownav) }}><p>Switch Theme</p>{(theme === 'light') ? <BsMoonStars size={24} /> : <MdOutlineLightMode size={24} />}</div>
-                <button className="px-10 md:px-4 w-auto sm:w-fit rounded-xl py-1 bg-gray-950 text-white font-semibold dark:text-gray-950 dark:bg-white">
+                <a href={CV} download className="px-10 md:px-4 w-auto sm:w-fit rounded-xl py-1 bg-gray-950 text-white font-semibold dark:text-gray-950 dark:bg-white">
                     Download CV
-                </button>
+                </a>
             </div>
         </>
 
