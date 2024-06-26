@@ -46,11 +46,11 @@ const Experience = () => {
             <div className='my-10 flex flex-col gap-10'>
                 {experience.map((item, key) => (<div key={key} className='flex flex-col sm:flex-row gap-3 sm:gap-10 shadow-lg text-gray-600   dark:text-gray-200 shadow-gray-300 dark:shadow-gray-950 bg-white dark:bg-gray-800  w-[90%] sm:w-fit mx-auto p-6 rounded-lg'>
                     <div>
-                        <img src={item.logo_dark} className='w-[100px] hidden dark:block ' alt="" srcset="" />
-                        <img src={item.logo_light} className='w-[100px] block dark:hidden' alt="" srcset="" />
+                        <img src={item.logo_dark} className='w-[100px] hidden dark:block ' alt="logo"  />
+                        <img src={item.logo_light} className='w-[100px] block dark:hidden' alt="logo"  />
 
                     </div>
-                    <div className='flex flex-col gap-4'>
+                    <div className='flex flex-col gap-6'>
                         <div className='flex flex-col-reverse sm:flex-row text-gray-950 dark:text-gray-200 justify-between gap-3 sm:gap-40'>
                             <p className='font-bold'>{item.title}</p> <p className='font-thin'>{item.start_date} - {item.end_date}</p>
                         </div>
@@ -65,4 +65,4 @@ const Experience = () => {
 }
 
 
-export default Experience
+export default Experience;
