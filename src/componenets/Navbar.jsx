@@ -61,7 +61,7 @@ const Navbar = () => {
                     <a onClick={() => { setNav(!shownav) }} href="#skills">Skills</a>
                     <a onClick={() => { setNav(!shownav) }} href="#projects">Projects</a>
                     <a onClick={() => { setNav(!shownav) }} href="#experience">Experience</a>
-                    <a onClick={() => { setNav(!shownav) }} href="contact">Contact</a>
+                    <a onClick={() => { setNav(!shownav) }} href="#contact">Contact</a>
                 </div>
                 <div className="cursor-pointer w-fit flex justify-between sm:justify-start gap-10" onClick={() => { switchTheme(), setNav(!shownav) }}><p>Switch Theme</p>{(theme === 'light') ? <BsMoonStars size={24} /> : <MdOutlineLightMode size={24} />}</div>
                 <a href={CV} download className="px-10 md:px-4 w-auto sm:w-fit rounded-xl py-1 bg-gray-950 text-white font-semibold dark:text-gray-950 dark:bg-white">
