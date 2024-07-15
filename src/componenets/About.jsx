@@ -13,7 +13,7 @@ const About = () => {
 
                     <div className="bg-gray-200 dark:bg-gray-700  px-2 sm:px-0 pb-2 sm:pb-0">
                         <div className="w-[280px] md:w-[280px] lg:w-[350px]  mb-0 sm:mb-6 pl-0 sm:pl-6 mr-0 sm:-mr-8 ">
-                            <img src={image} className="  -mt-6 sm:-mt-10 border-4     md:border-[6px] border-gray-50 dark:border-gray-900" alt="Profile Image" srcSet="" />
+                            <img src={image} className="  -mt-6 sm:-mt-10 border-4     md:border-[6px] border-gray-100 dark:border-gray-900" alt="Profile Image" srcSet="" />
                         </div>
                     </div>
 

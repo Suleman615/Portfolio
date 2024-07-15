@@ -55,7 +55,7 @@ const Navbar = () => {
 
 
             </div>
-            <div className={`flex pb-4 flex-col w-full  fixed bg-white dark:bg-gray-950 gap-4 px-6 v ${(shownav) ? 'block md:hidden' : 'hidden'}`}>
+            <div className={`flex pb-4 flex-col w-full  shadow-b shadow-lg rounde-b rounded-2xl  fixed bg-white dark:shadow-white dark:bg-gray-950 gap-4 px-6 v ${(shownav) ? 'block md:hidden' : 'hidden'}`}>
                 <div className="flex pt-20  flex-col gap-4 border-b pb-5 border-gray-400 pr-4">
                     <a onClick={() => { setNav(!shownav) }} href="#about">About</a>
                     <a onClick={() => { setNav(!shownav) }} href="#skills">Skills</a>
@@ -64,7 +64,7 @@ const Navbar = () => {
                     <a onClick={() => { setNav(!shownav) }} href="#contact">Contact</a>
                 </div>
                 <div className="cursor-pointer flex justify-between  gap-10" onClick={() => { switchTheme(), setNav(!shownav) }}><p>Switch Theme</p>{(theme === 'light') ? <BsMoonStars size={24} /> : <MdOutlineLightMode size={24} />}</div>
-                <a href={CV} download className="px-10 md:px-4 w-auto sm:w-fit rounded-xl py-1 bg-gray-950 text-white font-semibold dark:text-gray-950 dark:bg-white">
+                <a href={CV} download className="px-10 md:px-4 w-auto text-center sm:w-fit rounded-xl py-1 bg-gray-950 text-white font-semibold dark:text-gray-950 dark:bg-white">
                     Download CV
                 </a>
             </div>
