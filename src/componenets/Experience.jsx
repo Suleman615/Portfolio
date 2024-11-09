@@ -17,7 +17,7 @@ const Experience = () => {
             end_date: 'Sept 2024',
             title: 'React And Next Js Fellow',
             learnings: [
-                'Revised HTML & CSS Concept',
+                'Built React and Next Js projects',
                 'Worked on LinkedIn Personal Branding',
                 'Learned Tailwind  from Basic to Advance'
             ]
