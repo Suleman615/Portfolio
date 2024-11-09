@@ -30,6 +30,7 @@ const Navbar = () => {
         }
     }, [theme]);
 
+
     return (
         <>
             <div className="flex items-center justify-between px-2 md:px-10 fixed w-full bg-white dark:bg-gray-950 z-10 ">

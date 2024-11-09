@@ -14,7 +14,7 @@ const Experience = () => {
             logo_light: bytewise_light,
             logo_dark: bytewise_dark,
             start_date: 'Jun 2024',
-            end_date: 'to date',
+            end_date: 'Sept 2024',
             title: 'React And Next Js Fellow',
             learnings: [
                 'Revised HTML & CSS Concept',
