@@ -26,7 +26,7 @@ const About = () => {
                         I began my journey as a web developer in 2021, and since then, I've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Now, after 3 years after starting my web development journey, I'm building cutting-edge web applications using modern technologies such as Next.js, TypeScript, React.js, Tailwindcss and much more.<br/><br/>
                         I am very much a progressive thinker and enjoy working on products end to end, from ideation all the way to development.<br/><br/>
                         When I'm not in full-on developer mode, you can find me hovering around on LinkedIn, witnessing the journey of early startups or enjoying some free time. You can follow me on <a className='font-semibold underline' target='_blank' href='https://www.linkedin.com/in/ghulam-suleman/' >LinkedIn</a> where I share tech-related bites and build in public, or you can follow me on <a className='font-semibold underline' target='_blank' href='https://github.com/Suleman615'>GitHub</a>.<br/><br/>
-                        One last thing, I'm available for freelance work, so feel free to reach out and say hello! I promise I don't bite 😉                    </p>
+                        One last thing, I'm available for freelance work, so feel free to reach out and say hello!😉</p>
                    
                 </div>
 
