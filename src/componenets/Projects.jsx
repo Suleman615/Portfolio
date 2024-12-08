@@ -63,7 +63,7 @@ const Projects = () => {
             Preview: e_commerce,
             description: ' A dynamic e-commerce website was built using a combination of HTML, Bootstrap CSS, and JavaScript. The website offers the functionality to select any product from a collection of products and add to cart',
             Skills: ['React Js',  'Bootstrap CSS', 'JavaScript'],
-            live_link: 'https://e-commerce-suleman615.vercel.app/',
+            live_link: 'https://my-e-commerce-shop.vercel.app/',
             source_code: 'https://github.com/Suleman615/E-commerce'
         },
         {
