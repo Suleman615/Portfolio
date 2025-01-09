@@ -18,7 +18,7 @@ const Hero = () => {
                 <p className="text-justify w-auto m md:max-w-[700px] font-semibold">I'm a Front End developer (React.js & Next.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 3 years, I still love it as if it was something new.</p>
                 <div className="flex gap-6 items-center mt-10">
                     <SlLocationPin size={28} />
-                    <p className="font-semibold">Islamabad, Pakistan</p>
+                    <p className="font-semibold">Karachi, Pakistan</p>
                 </div>
                 <div className="flex gap-6 items-center ml-1">
                 <GoDotFill  color="green"/>
