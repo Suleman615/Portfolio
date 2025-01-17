@@ -15,7 +15,7 @@ const Hero = () => {
             {/* left section */} 
             <div className="flex-grow-0 w-fit  mt-10 md:mt-0  sm:flex-grow-[2]  flex flex-col px-2 lg:pr-20 gap-3 justify-center" >
                 <h3 className="text-[44px] font-bold">Ghulam Suleman</h3>
-                <p className="text-justify w-auto m md:max-w-[700px] font-semibold">I'm a Full Stack developer (MERN) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 3 years, I still love it as if it was something new.</p>
+                <p className="text-justify w-auto m md:max-w-[700px] font-semibold">I'm a Front End developer (React.js & Next.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 3 years, I still love it as if it was something new.</p>
                 <div className="flex gap-6 items-center mt-10">
                     <SlLocationPin size={28} />
                     <p className="font-semibold">Karachi, Pakistan</p>
