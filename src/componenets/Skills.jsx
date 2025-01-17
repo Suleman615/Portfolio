@@ -9,7 +9,7 @@ import css from '../assets/icons/icon-css.svg'
 import bootstrap from '../assets/icons/icon-bootstrap.svg'
 import vs_code from '../assets/icons/icon-visual-studio-code.svg'
 import intelliJ from '../assets/icons/icons-intellij-idea.svg'
-import redux from '../assets/icons/icons-redux-toolkit.png'
+import redux from '../assets/icons/icon-redux-toolkit.png'
 
 
 const Skills = () => {
