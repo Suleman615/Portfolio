@@ -6,7 +6,15 @@ module.exports = {
   darkMode: 'class', // Enables dark mode based on a class
   theme: {
     extend: {
-      // Customize your theme here
+      keyframes: {
+        shine: {
+          '0%': { 'background-position': '100%' },
+          '100%': { 'background-position': '-100%' },
+        },
+      },
+      animation: {
+        shine: 'shine 5s linear infinite',
+      },
     },
   },
   variants: {
