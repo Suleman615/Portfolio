@@ -64,7 +64,7 @@ const Contact = () => {
                     {/* Success page redirect  */}
                     <input type="hidden" name="_next" value="https://ghulam-suleman.vercel.app" />
 
-                    <button className="bg-gray-200 py-2 rounded-md text-gray-700 border  dark:bg-gray-700 dark:border-gray-700 dark:text-gray-200 dark:hover:border-gray-400" type="submit">Send Message</button>
+                    <button className="bg-gray-200 py-2 rounded-md text-gray-700 border hover:border-gray-700 dark:bg-gray-700 dark:border-gray-700 dark:text-gray-200 dark:hover:border-gray-400" type="submit">Send Message</button>
                 </form>
             </div>
 
