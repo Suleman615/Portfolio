@@ -33,6 +33,9 @@ const Contact = () => {
                  action="https://formsubmit.co/ghlmsuleman@gmail.com" 
                  method="post"
                  className="border border-gray-700/80 p-5 rounded-lg flex flex-col gap-4 ">
+
+<p className="text-center text-xl text-gray-700 dark:text-gray-200 font-semibold">Send An Instant Message</p>
+
                     <div className="flex flex-col gap-2">
                         <label className="text-gray-700  dark:text-gray-200  " htmlFor="name">Name:</label>
                         <input className="rounded-md text-xl ps-1 py-1 bg-gray-300 dark:bg-gray-700 focus:outline-0 focus:ring-1 ring-gray-400" type="text" id="name" name="name" required/>
