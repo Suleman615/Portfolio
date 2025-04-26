@@ -40,6 +40,10 @@ const Contact = () => {
                         <label className="text-gray-700  dark:text-gray-200  " htmlFor="name">Name:</label>
                         <input className="rounded-md text-xl ps-1 py-1 bg-gray-300 dark:bg-gray-700 focus:outline-0 focus:ring-1 ring-gray-400" type="text" id="name" name="name" required/>
                     </div>
+                    <div className="flex flex-col gap-2">
+                        <label className="text-gray-700  dark:text-gray-200  " htmlFor="subject">Subject:</label>
+                        <input className="rounded-md text-xl ps-1 py-1 bg-gray-300 dark:bg-gray-700 focus:outline-0 focus:ring-1 ring-gray-400" type="text" id="subject" name="subject" required />
+                    </div>
 
                     <div className="flex flex-col gap-2">
                         <label className="text-gray-700  dark:text-gray-200  " htmlFor="email">Email:</label>
