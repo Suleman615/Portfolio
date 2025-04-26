@@ -2,6 +2,8 @@ import { useState , useEffect} from 'react';
 import bytewise_light from '../assets/experience-Organizations/bytewise.webp'
 import bytewise_dark from '../assets/experience-Organizations/bytewise_white.webp'
 import fastTech from '../assets/experience-Organizations/fastech_systems_logo.webp'
+import digitenic from '../assets/experience-Organizations/digitenic_logo.png'
+
 
 const Experience = () => {
    
@@ -11,15 +13,27 @@ const Experience = () => {
 
     const experience = [
         {
+            logo_light: digitenic,
+            logo_dark: digitenic,
+            start_date: 'Aug 2024',
+            end_date: 'Mar 2025',
+            title: 'front-End Developer',
+            learnings: [
+                'Developed and maintained scalable web applications with React and Tailwind CSS.',
+                'Integrated REST APIs and ensured responsive design across various devices.',
+                'Contributed to performance optimization, bug fixing, and UI enhancements in ongoing projects.'
+            ]
+        },
+        {
             logo_light: bytewise_light,
             logo_dark: bytewise_dark,
             start_date: 'Jun 2024',
             end_date: 'Sept 2024',
             title: 'React And Next Js Fellow',
             learnings: [
-                'Built React and Next Js projects',
-                'Worked on LinkedIn Personal Branding',
-                'Learned Tailwind  from Basic to Advance'
+                'Built multiple front-end components using React and Next.js as part of a mentorship program.',
+                'Gained hands-on experience in dynamic routing, Static Site Generation (SSG), and API integration.',
+                'Collaborated in peer code reviews and followed Git version control best practices.'
             ]
         },
         {
@@ -27,11 +41,11 @@ const Experience = () => {
             logo_dark: fastTech,
             start_date: 'Jun 2023',
             end_date: 'Aug 2023',
-            title: 'Front End Developer',
+            title: 'Front End Developer - Intern',
             learnings: [
-                'Learned HTML From Basic to Advance',
-                'learned CSS From Basic to advance',
-                'Learned Bootstrap from Basic to Advance'
+                'Collaborated with the design team to implement responsive UIs using HTML, CSS, and JavaScript.',
+                'Worked on optimizing existing web pages for performance and mobile compatibility.',
+                'Gained experience in cross-browser compatibility and code debugging.'
             ]
         },
        
